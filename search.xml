@@ -41,7 +41,7 @@
     <title>测试图片慢加载</title>
     <url>/2021/11/28/lazyload%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<blockquote>
-<p>测试图片慢加载</p>
+<p>测试图片慢加载,只不过pjax的问题仍未解决。</p>
 </blockquote>
 <span id="more"></span>
 <p><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/01.jpg" alt="image1"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/02.jpg" alt="image2"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/03.jpg" alt="image3"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/04.jpg" alt="image4"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/05.jpg" alt="image5"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/06.jpg" alt="image6"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/07.jpg" alt="image7"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/08.jpg" alt="image8"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/09.jpg" alt="image9"></p>
