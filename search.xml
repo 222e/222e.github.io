@@ -38,6 +38,19 @@
       </tags>
   </entry>
   <entry>
+    <title>测试图片慢加载</title>
+    <url>/2021/11/28/lazyload%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<blockquote>
+<p>测试图片慢加载</p>
+</blockquote>
+<span id="more"></span>
+<p><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/01.jpg" alt="image1"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/02.jpg" alt="image2"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/03.jpg" alt="image3"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/04.jpg" alt="image4"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/05.jpg" alt="image5"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/06.jpg" alt="image6"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/07.jpg" alt="image7"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/08.jpg" alt="image8"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/09.jpg" alt="image9"></p>
+]]></content>
+      <categories>
+        <category>测试页面</category>
+      </categories>
+  </entry>
+  <entry>
     <title>生与死</title>
     <url>/2020/04/14/live%20or%20die/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
