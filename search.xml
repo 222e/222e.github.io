@@ -3,7 +3,9 @@
   <entry>
     <title>git命令（常用）</title>
     <url>/2021/11/28/git%E5%91%BD%E4%BB%A4%EF%BC%88%E5%B8%B8%E7%94%A8%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="重新设置git-remote-url"><a href="#重新设置git-remote-url" class="headerlink" title="重新设置git remote url"></a>重新设置git remote url</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote set-url origin yourlink</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<p>常用git命令，备不时之需。</p>
+<span id="more"></span>
+<h1 id="重新设置git-remote-url"><a href="#重新设置git-remote-url" class="headerlink" title="重新设置git remote url"></a>重新设置git remote url</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote set-url origin yourlink</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>git</category>
