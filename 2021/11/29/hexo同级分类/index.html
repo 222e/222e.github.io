@@ -29,7 +29,7 @@
 <meta property="og:description" content="针对hexo默认多级分类的问题">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-11-29T01:20:57.000Z">
-<meta property="article:modified_time" content="2021-11-29T08:35:34.640Z">
+<meta property="article:modified_time" content="2021-11-29T14:13:39.557Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 
@@ -213,7 +213,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-11-29 09:20:57 / Modified: 16:35:34" itemprop="dateCreated datePublished" datetime="2021-11-29T09:20:57+08:00">2021-11-29</time>
+              <time title="Created: 2021-11-29 09:20:57 / Modified: 22:13:39" itemprop="dateCreated datePublished" datetime="2021-11-29T09:20:57+08:00">2021-11-29</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -369,7 +369,7 @@ hexo
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-count">17</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -382,7 +382,7 @@ hexo
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-count">12</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -418,7 +418,7 @@ hexo
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="Symbols count total">83k</span>
+    <span title="Symbols count total">84k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
@@ -537,6 +537,19 @@ window.addEventListener('pjax:success', () => {
 
 
 
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
 
 
     <div id="pjax">
