@@ -1193,7 +1193,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e41bff;
+  background: #99ffb8;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1369,6 +1369,7 @@ pre .javascript .function {
   justify-content: center;
   line-height: 1.4;
   margin-top: 10px;
+  padding-bottom: 10px;
   overflow: hidden;
   text-align: center;
   white-space: nowrap;
@@ -2586,4 +2587,164 @@ ul.breadcrumb li + li:last-child {
 }
 .links-of-blogroll-item {
   padding: 0;
+}
+#CloudCalendar {
+/*全句背景色*/
+  background-color: #222;
+  font-size: 12px;
+}
+#CloudCalendar a {
+  text-decoration: none;
+}
+.cal-head {
+  position: relative;
+  height: 20px;
+  padding: 8px 6px 2px 6px;
+}
+.cal-prev,
+.cal-next {
+  position: absolute;
+  top: 9px;
+  width: 9px;
+  height: 10px;
+  padding: 3px 4px;
+  border: 1px solid transparent;
+  color: #fff;
+  outline: 0;
+}
+/*上下页箭头*/
+.cal-prev {
+  left: 8px;
+}
+.cal-prev:before {
+  border-right: 9px solid #999;
+}
+.cal-next {
+  right: 8px;
+}
+.cal-next:before {
+  border-left: 9px solid #999;
+}
+.cal-prev:before,
+.cal-next:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  color: #fff;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+.cal-title {
+  width: 120px;
+  margin: 0 auto;
+  color: #808080;
+  font: bold 14px/18px Arial;
+  text-align: center;
+}
+.cal-title a {
+  border: 1px solid transparent;
+/*年份颜色*/
+  color: color-link;
+}
+.cal,
+.cal th,
+.cal td {
+  border: 1px solid #eee;
+  font-size: 12px;
+}
+.cal {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+}
+.cal th {
+/*星期颜色*/
+  color: color-link;
+  border-width: 0 1px 1px 0;
+  font-weight: 700;
+}
+.cal td {
+  border-width: 0 1px 1px 0;
+}
+.cal tbody a {
+/*有提交的天*/
+  background-color: #399fd4;
+  color: #fff;
+  display: block;
+  border-bottom: 0px solid transparent;
+  font-weight: 700;
+}
+.cal tbody .cal-today {
+/*今天*/
+  color: #65d2ac;
+  font-weight: bold;
+}
+.cal .cal-gray {
+/*没提交的天*/
+  color: #808080;
+}
+.cal th,
+.cal td {
+  font-weight: normal;
+  line-height: 2.5625;
+  padding: 0;
+  background: #222;
+  text-align: center;
+}
+.cal .cal-foot {
+/*底栏箭头切换月*/
+  color: color-link;
+}
+.cal-title a:hover,
+.cal-prev:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+.cal-next:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+.cal .cal-foot:hover,
+.cal .cal-foot:focus {
+/*底栏箭头切换月-鼠标覆盖*/
+  background-color: color-link;
+  color: #fff;
+  cursor: pointer;
+}
+/*鼠标覆盖后的颜色*/
+.cal tbody a:hover,
+.cal tbody a:focus {
+  background-color: #68dc6e;
+  color: #fff;
+  cursor: pointer;
+}
+.cal th,
+.cal td {
+/*数字字体大小*/
+  line-height: 1.5 !important;
+/*更改背景色*/
+  background-color: transparent !important;
+}
+.cal-prev,
+.cal-next {
+/*更改间距*/
+  padding: 0px !important;
+}
+#CloudCalendar {
+/*全句背景色*/
+  background-color: transparent !important;
+}
+.cal,
+.cal th,
+.cal td {
+/*更改线条颜色*/
+  border: 1px solid #555 !important;
+}
+.cal .cal-foot {
+/*底栏箭头切换月*/
+  color: #808080 !important;
 }
