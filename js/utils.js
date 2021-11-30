@@ -16,6 +16,9 @@ NexT.utils = {
       var $image = $(element);
       var imageLink = $image.attr('data-src') || $image.attr('src');
       var $imageWrapLink = $image.wrap(`<a class="fancybox fancybox.image" href="${imageLink}" itemscope itemtype="http://schema.org/ImageObject" itemprop="url"></a>`).parent('a');
+      if(location.href.indexOf("#reloaded")==-1){
+                location.href=location.href+"#reloaded";     
+                location.reload();}
       if ($image.is('.post-gallery img')) {
         $imageWrapLink.attr('data-fancybox', 'gallery').attr('rel', 'gallery');
       } else if ($image.is('.group-picture img')) {
@@ -42,6 +45,7 @@ NexT.utils = {
       }
     });
   },
+      
 
   registerExtURL: function() {
     document.querySelectorAll('span.exturl').forEach(element => {
