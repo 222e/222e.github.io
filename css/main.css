@@ -1190,7 +1190,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #83f249;
+  background: #45bbf1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2747,4 +2747,9 @@ ul.breadcrumb li + li:last-child {
   width: 2rem !important;
   height: 2rem !important;
   padding: 2px 5px 5px 5px !important;
+}
+/*默认：inline-block*/
+img,
+.darkmode-ignore {
+  display: flex !important;
 }
