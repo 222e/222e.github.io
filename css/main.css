@@ -1193,7 +1193,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #99ffb8;
+  background: #ff784e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2747,4 +2747,8 @@ ul.breadcrumb li + li:last-child {
 .cal .cal-foot {
 /*底栏箭头切换月*/
   color: #808080 !important;
+}
+.cal tbody .cal-today {
+  color: #fff !important;
+  background-color: #222 !important;
 }
