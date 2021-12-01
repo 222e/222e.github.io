@@ -344,6 +344,15 @@ gantt
 <h2 id="不太好的解决办法"><a href="#不太好的解决办法" class="headerlink" title="不太好的解决办法"></a>不太好的解决办法</h2><p>在主题utils.js文件第19行开始写入以下代码，让其重载。（已弃用）</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if (location.href.indexOf(&quot;#reloaded&quot;) == -1) &#123;</span><br><span class="line">    location.href = location.href + &quot;#reloaded&quot;;</span><br><span class="line">    location.reload();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="最终解决办法"><a href="#最终解决办法" class="headerlink" title="最终解决办法"></a>最终解决办法</h2><p>禁用fancybox，启用<a href="https://github.com/francoischalifour/medium-zoom">medium-zoom</a></p>
+<h3 id="小插曲"><a href="#小插曲" class="headerlink" title="小插曲"></a>小插曲</h3><p>禁用fancybox后，一个重要的js文件便没有引入,导致日历无法显示  </p>
+<p>解决办法就是在_layout.swig文件的&lt;/head&gt;前写入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
 ]]></content>
       <categories>
         <category>博客</category>
@@ -695,7 +704,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#x61;&#107;&#101;&#x40;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#x66;&#x61;&#107;&#101;&#x40;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#97;&#107;&#x65;&#64;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#102;&#97;&#107;&#x65;&#64;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
