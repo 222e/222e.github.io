@@ -882,7 +882,7 @@ pre .javascript .function {
 .pagination .page-number.current {
   background: #ccc;
   border-top-color: #ccc;
-  color: #555;
+  color: var(--btn-default-bg);
 }
 @media (max-width: 767px) {
   .pagination {
@@ -1190,7 +1190,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #67e55e;
+  background: #d578ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1518,7 +1518,10 @@ pre .javascript .function {
   position: fixed;
   transition-property: bottom;
   z-index: 1300;
-  width: initial;
+  width: 24px;
+}
+.back-to-top span {
+  display: none;
 }
 .back-to-top:hover {
   color: #fc6423;
@@ -2739,17 +2742,43 @@ ul.breadcrumb li + li:last-child {
   color: var(--link-color) !important;
 }
 .cal tbody .cal-today {
-  color: #fff !important;
-  background-color: #222 !important;
+  color: var(--btn-default-bg) !important;
+  background-color: var(--text-color) !important;
 }
-/*暗黑切换钮*/
+/*暗黑切换钮-默认*/
 .darkmode-toggle {
+  color: transparent !important;
+  background: transparent !important;
   width: 2rem !important;
   height: 2rem !important;
   padding: 2px 5px 5px 5px !important;
+}
+/*暗黑切换钮-默认-hover*/
+.darkmode-toggle:hover {
+  background: #000 !important;
+  color: initial !important;
+}
+/*暗黑切换钮-黑夜*/
+.darkmode-toggle--white {
+  background: transparent !important;
+  color: transparent !important;
+}
+/*暗黑切换钮-鼠标悬浮*/
+.darkmode-toggle--white:hover {
+  background: #fff !important;
+  color: initial !important;
 }
 /*默认：inline-block*/
 img,
 .darkmode-ignore {
   display: flex !important;
+}
+.cal .cal-gray {
+  color: transparent;
+}
+@media (max-width: 991px) {
+  .back-to-top {
+    right: 20px !important;
+    left: unset !important;
+  }
 }
