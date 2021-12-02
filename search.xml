@@ -272,6 +272,35 @@ gantt
       </tags>
   </entry>
   <entry>
+    <title>文章置顶功能应用</title>
+    <url>/2021/12/02/%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6%E5%8A%9F%E8%83%BD%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<blockquote>
+<p>hexo-generator-index已经更新到可以直接用置顶功能了。</p>
+</blockquote>
+<span id="more"></span>
+
+<!-- 分类：git 编程 hexo 博客 互联网 哲学 日记 法律 测试页面 胡思乱想 图片：https://cdn.jsdelivr.net/gh/222e/2021@master/pic/**/******.png MP4：https://cdn.jsdelivr.net/gh/222e/2021@master/mp4/**/******.mp4 MP3：https://cdn.jsdelivr.net/gh/222e/2021@master/mp3/**/******.mp3  -->
+
+<p>但是next主题sticky图标太大了，影响美观。因此需要更改一下图标及文字显示位置。</p>
+<p>将这个<a href="https://github.com/theme-next/hexo-theme-next/blob/master/layout/_macro/post.swig">文件</a>里的如下代码删去</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;%- if post.sticky &gt; 0 %&#125;</span><br><span class="line">   &lt;span class=&quot;post-sticky-flag&quot; title=&quot;&#123;&#123; __(&#x27;post.sticky&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line">     &lt;i class=&quot;fa fa-thumbtack&quot;&gt;置顶&lt;/i&gt;</span><br><span class="line">   &lt;/span&gt;</span><br><span class="line"> &#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在 ’<div class="post-meta">‘下面一行写入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if post.sticky %&#125;</span><br><span class="line">  &lt;i class=&quot;fa fa-thumbtack&quot;&gt;&lt;/i&gt;</span><br><span class="line">  &lt;font color=#999&gt;置顶&lt;/font&gt;</span><br><span class="line">  &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>   大功告成</p>
+<p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/022201.png" title="置顶"></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>功能</tag>
+        <tag>用法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>日历插件安装及css修改</title>
     <url>/2021/11/30/%E6%97%A5%E5%8E%86%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%E5%8F%8Acss%E4%BF%AE%E6%94%B9/</url>
     <content><![CDATA[<blockquote>
@@ -705,7 +734,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#97;&#107;&#101;&#x40;&#101;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#101;&#46;&#x63;&#x6f;&#109;">&#102;&#97;&#107;&#101;&#x40;&#101;&#x78;&#x61;&#x6d;&#x70;&#x6c;&#101;&#46;&#x63;&#x6f;&#109;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#x61;&#107;&#101;&#x40;&#101;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#111;&#109;">&#x66;&#x61;&#107;&#101;&#x40;&#101;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
