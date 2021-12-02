@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+
+User-agent: Wandoujia Spider
+Disallow: /
+
+User-agent: Mediapartners-Google
+Disallow: /
