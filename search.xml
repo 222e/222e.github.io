@@ -286,9 +286,9 @@ gantt
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;%- if post.sticky &gt; 0 %&#125;</span><br><span class="line">   &lt;span class=&quot;post-sticky-flag&quot; title=&quot;&#123;&#123; __(&#x27;post.sticky&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line">     &lt;i class=&quot;fa fa-thumbtack&quot;&gt;置顶&lt;/i&gt;</span><br><span class="line">   &lt;/span&gt;</span><br><span class="line"> &#123;%- endif %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>在 ‘<div class="post-meta">‘下面一行写入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if post.sticky %&#125;</span><br><span class="line">  &lt;i class=&quot;fa fa-thumbtack&quot;&gt;&lt;/i&gt;</span><br><span class="line">  &lt;font color=#999&gt;置顶&lt;/font&gt;</span><br><span class="line">  &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if post.sticky %&#125;</span><br><span class="line">  &lt;i class=&quot;fa fa-thumbtack&quot;&gt;&lt;/i&gt;</span><br><span class="line">  &lt;font color=#999&gt;置顶&lt;/font&gt;</span><br><span class="line">  &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>   大功告成</p>
+<p>大功告成</p>
 <p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/022201.png" title="置顶"></p>
 ]]></content>
       <categories>
@@ -734,7 +734,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#x61;&#x6b;&#101;&#x40;&#101;&#120;&#x61;&#109;&#112;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#102;&#x61;&#x6b;&#101;&#x40;&#101;&#120;&#x61;&#109;&#112;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#97;&#107;&#101;&#x40;&#101;&#120;&#97;&#x6d;&#x70;&#x6c;&#x65;&#46;&#x63;&#111;&#x6d;">&#102;&#97;&#107;&#101;&#x40;&#101;&#120;&#97;&#x6d;&#x70;&#x6c;&#x65;&#46;&#x63;&#111;&#x6d;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
