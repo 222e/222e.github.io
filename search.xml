@@ -117,7 +117,7 @@ hexo
 <p>测试图片慢加载,只不过pjax的问题仍未解决。</p>
 </blockquote>
 <span id="more"></span>
-<p><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/01.jpg" alt="image1"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/02.jpg" alt="image2"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/03.jpg" alt="image3"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/04.jpg" alt="image4"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/05.jpg" alt="image5"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/06.jpg" alt="image6"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/07.jpg" alt="image7"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/08.jpg" alt="image8"><br><img src="https://apoorv.pro/lozad.js/demo/images/thumbs/09.jpg" alt="image9"></p>
+<p><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/01.jpg" alt="image1"><br><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/02.jpg" alt="image2"><br><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/03.jpg" alt="image3"><br><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/04.jpg" alt="image4"><br><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/05.jpg" alt="image5"><br><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/06.jpg" alt="image6"><br><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/07.jpg" alt="image7"><br><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/08.jpg" alt="image8"><br><img data-src="https://apoorv.pro/lozad.js/demo/images/thumbs/09.jpg" alt="image9"></p>
 ]]></content>
       <categories>
         <category>测试页面</category>
@@ -228,6 +228,29 @@ gantt
       </tags>
   </entry>
   <entry>
+    <title>next_v8主题源文件修改之处</title>
+    <url>/2021/12/03/next-v8%E4%B8%BB%E9%A2%98%E6%BA%90%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E4%B9%8B%E5%A4%84/</url>
+    <content><![CDATA[<blockquote>
+<p>记录对原文件的更改，以更好地管理。</p>
+</blockquote>
+<span id="more"></span>
+
+<!-- 分类：git 编程 hexo 博客 互联网 哲学 日记 法律 测试页面 胡思乱想 图片：https://cdn.jsdelivr.net/gh/222e/2021@master/pic/**/******.png MP4：https://cdn.jsdelivr.net/gh/222e/2021@master/mp4/**/******.mp4 MP3：https://cdn.jsdelivr.net/gh/222e/2021@master/mp3/**/******.mp3  -->
+
+
+
+<h1 id="source-js-motion-js"><a href="#source-js-motion-js" class="headerlink" title="source\js\motion.js"></a>source\js\motion.js</h1><p>L21 将200修改为50，以加快动画。 </p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> timeline = <span class="built_in">window</span>.anime.timeline(&#123;</span><br><span class="line"></span><br><span class="line">​    duration: <span class="number">50</span>,</span><br><span class="line"></span><br><span class="line">​    easing  : <span class="string">&#x27;linear&#x27;</span></span><br><span class="line"></span><br><span class="line">   &#125;);</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>博客</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>next主题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《西窗法学》读书笔记</title>
     <url>/2020/04/16/%E3%80%8A%E8%A5%BF%E7%AA%97%E6%B3%95%E9%9B%A8%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
@@ -281,12 +304,12 @@ gantt
 
 <!-- 分类：git 编程 hexo 博客 互联网 哲学 日记 法律 测试页面 胡思乱想 图片：https://cdn.jsdelivr.net/gh/222e/2021@master/pic/**/******.png MP4：https://cdn.jsdelivr.net/gh/222e/2021@master/mp4/**/******.mp4 MP3：https://cdn.jsdelivr.net/gh/222e/2021@master/mp3/**/******.mp3  -->
 
-<h1 id="审查元素，查找出该元素的class。"><a href="#审查元素，查找出该元素的class。" class="headerlink" title="审查元素，查找出该元素的class。"></a>审查元素，查找出该元素的class。</h1><p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030908.png" title="右下角">  </p>
-<h1 id="在vscode中搜索该class"><a href="#在vscode中搜索该class" class="headerlink" title="在vscode中搜索该class"></a>在vscode中搜索该class</h1><p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030912.png" title="左上角"></p>
-<h1 id="找到该元素css后，进一步寻根"><a href="#找到该元素css后，进一步寻根" class="headerlink" title="找到该元素css后，进一步寻根"></a>找到该元素css后，进一步寻根</h1><p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030914.png" title="中间"></p>
+<h1 id="审查元素，查找出该元素的class。"><a href="#审查元素，查找出该元素的class。" class="headerlink" title="审查元素，查找出该元素的class。"></a>审查元素，查找出该元素的class。</h1><p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030908.png" title="右下角">  </p>
+<h1 id="在vscode中搜索该class"><a href="#在vscode中搜索该class" class="headerlink" title="在vscode中搜索该class"></a>在vscode中搜索该class</h1><p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030912.png" title="左上角"></p>
+<h1 id="找到该元素css后，进一步寻根"><a href="#找到该元素css后，进一步寻根" class="headerlink" title="找到该元素css后，进一步寻根"></a>找到该元素css后，进一步寻根</h1><p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030914.png" title="中间"></p>
 <p>重新定义<code>$selection-bg</code>(eg.) ，创建<code>--selection-bg</code></p>
-<h1 id="打开-color-styl，定义白天的css"><a href="#打开-color-styl，定义白天的css" class="headerlink" title="打开_color.styl，定义白天的css"></a>打开_color.styl，定义白天的css</h1><p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030920.png" title="最下面"></p>
-<h1 id="打开main-styl，定义晚上的css"><a href="#打开main-styl，定义晚上的css" class="headerlink" title="打开main.styl，定义晚上的css"></a>打开main.styl，定义晚上的css</h1><p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030923.png"></p>
+<h1 id="打开-color-styl，定义白天的css"><a href="#打开-color-styl，定义白天的css" class="headerlink" title="打开_color.styl，定义白天的css"></a>打开_color.styl，定义白天的css</h1><p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030920.png" title="最下面"></p>
+<h1 id="打开main-styl，定义晚上的css"><a href="#打开main-styl，定义晚上的css" class="headerlink" title="打开main.styl，定义晚上的css"></a>打开main.styl，定义晚上的css</h1><p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/030923.png"></p>
 <p>  over!</p>
 ]]></content>
       <categories>
@@ -302,6 +325,7 @@ gantt
     <title>如果与格局</title>
     <url>/2021/12/03/%E5%A6%82%E6%9E%9C%E4%B8%8E%E6%A0%BC%E5%B1%80/</url>
     <content><![CDATA[<blockquote>
+<p>Just thinking</p>
 </blockquote>
 <span id="more"></span>
 
@@ -371,7 +395,7 @@ gantt
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% if post.sticky %&#125;</span><br><span class="line">  &lt;i class=&quot;fa fa-thumbtack&quot;&gt;&lt;/i&gt;</span><br><span class="line">  &lt;font color=#999&gt;置顶&lt;/font&gt;</span><br><span class="line">  &lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
 <p>大功告成</p>
-<p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/022201.png" title="置顶"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/022201.png" title="置顶"></p>
 ]]></content>
       <categories>
         <category>博客</category>
@@ -446,8 +470,8 @@ gantt
 
 <!-- 分类：git 编程 hexo 博客 互联网 哲学 日记 法律 测试页面 胡思乱想 图片：https://cdn.jsdelivr.net/gh/222e/2021@master/pic/**/******.png MP4：https://cdn.jsdelivr.net/gh/222e/2021@master/mp4/**/******.mp4 MP3：https://cdn.jsdelivr.net/gh/222e/2021@master/mp3/**/******.mp3  -->
 
-<h1 id="日历月份下的文章总数统计有误"><a href="#日历月份下的文章总数统计有误" class="headerlink" title="日历月份下的文章总数统计有误"></a>日历月份下的文章总数统计有误</h1><p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/011046.png"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/011050.png" title="总数不准确"></p>
+<h1 id="日历月份下的文章总数统计有误"><a href="#日历月份下的文章总数统计有误" class="headerlink" title="日历月份下的文章总数统计有误"></a>日历月份下的文章总数统计有误</h1><p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/011046.png"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/12/011050.png" title="总数不准确"></p>
 <blockquote>
 <p>解决办法暂无</p>
 </blockquote>
@@ -508,7 +532,7 @@ gantt
 
 
 
-<p><img src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/11/301516.png" alt="加载失败" title="珂赛特"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/222e/2021@master/pic/11/301516.png" alt="加载失败" title="珂赛特"></p>
 ]]></content>
       <categories>
         <category>测试页面</category>
@@ -624,21 +648,18 @@ hexo
 <span id="more"></span>
 <h1 id="总览"><a href="#总览" class="headerlink" title="总览"></a>总览</h1><p>几乎所有 Markdown 应用程序都支持 John Gruber 原始设计文档中列出的 Markdown 基本语法。但是，Markdown 处理程序之间存在着细微的变化和差异，我们都会尽可能标记出来。</p>
 <h1 id="标题（Headings）"><a href="#标题（Headings）" class="headerlink" title="标题（Headings）"></a>标题（Headings）</h1><p>要创建标题，请在单词或短语前面添加井号 (#) 。井号的数量代表了标题的级别。例如，添加三个井号即创建一个三级标题 。 (例如：### My Header)。</p>
-<h1>Heading level 1</h1>    
-
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Heading level 1	</span></span><br></pre></td></tr></table></figure>
-<h2>Heading level 2</h2>
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">## Heading level 2	</span></span><br></pre></td></tr></table></figure>
 
-<h3>Heading level 3</h3>
 
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">### Heading level 3	</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="可选语法"><a href="#可选语法" class="headerlink" title="可选语法"></a>可选语法</h2><p>还可以在文本下方添加任意数量的 == 号来标识一级标题，或者 – 号来标识二级标题。</p>
-<h1 id="Heading-level-1"><a href="#Heading-level-1" class="headerlink" title="Heading level 1"></a>Heading level 1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Heading level 1</span><br><span class="line">===============	</span><br></pre></td></tr></table></figure>
-<h2 id="Heading-level-2"><a href="#Heading-level-2" class="headerlink" title="Heading level 2"></a>Heading level 2</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Heading level 1</span><br><span class="line">---------------</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Heading level 1</span><br><span class="line">===============	</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Heading level 1</span><br><span class="line">---------------</span><br></pre></td></tr></table></figure>
 <h2 id="标题（Heading）用法的最佳实践"><a href="#标题（Heading）用法的最佳实践" class="headerlink" title="标题（Heading）用法的最佳实践"></a>标题（Heading）用法的最佳实践</h2><p>当井号（#）和标题文本之间没有空格时，各 Markdown 应用程序的处理方式是不一样的。为了兼容考虑，请在井号和标题文本之间添加一个空格。</p>
 <p>✅  这样做    </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Here&#x27;s a Heading</span><br></pre></td></tr></table></figure>
@@ -776,7 +797,7 @@ hexo
 <li><p> Open the file containing the Linux mascot.</p>
 </li>
 <li><p>Marvel at its beauty.</p>
-<p> <img src="https://www.markdown.xyz/assets/images/tux.png" alt="Tux, the Linux mascot"></p>
+<p> <img data-src="https://www.markdown.xyz/assets/images/tux.png" alt="Tux, the Linux mascot"></p>
 </li>
 <li><p> Close the file.</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.  Open the file containing the Linux mascot.</span><br><span class="line">2.  Marvel at its beauty.</span><br><span class="line"></span><br><span class="line">    ![Tux, the Linux mascot](https://www.markdown.xyz/assets/images/tux.png)</span><br><span class="line"></span><br><span class="line">3.  Close the file.</span><br></pre></td></tr></table></figure>
@@ -816,7 +837,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#97;&#x6b;&#x65;&#64;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;">&#x66;&#97;&#x6b;&#x65;&#64;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#111;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#x61;&#107;&#x65;&#x40;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#102;&#x61;&#107;&#x65;&#x40;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
@@ -846,11 +867,11 @@ hexo
 <p>✅  这样做    </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[link](https://www.example.com/my%20great%20page)</span><br></pre></td></tr></table></figure>
 <h1 id="图片（Images）-1"><a href="#图片（Images）-1" class="headerlink" title="图片（Images）"></a>图片（Images）</h1><p>要添加图片，首先请添加感叹号（!），然后紧跟着是方括号，方括号中可添加替代文本（alt text，即图片显示失败后显示此文本），最后跟着圆括号，圆括号中添加图片资源的路径或 URL。你可以选择在圆括号中的 URL 之后添加标题（即 title 属性）。</p>
-<p><img src="https://www.markdown.xyz/assets/images/philly-magic-garden.jpg" alt="Philadelphia&#39;s Magic Gardens. This place was so cool!" title="Philadelphia&#39;s Magic Gardens"></p>
+<p><img data-src="https://www.markdown.xyz/assets/images/philly-magic-garden.jpg" alt="Philadelphia&#39;s Magic Gardens. This place was so cool!" title="Philadelphia&#39;s Magic Gardens"></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![Philadelphia&#x27;s Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg &quot;Philadelphia&#x27;s Magic Gardens&quot;)</span><br></pre></td></tr></table></figure>
 
 <h2 id="带链接的图片"><a href="#带链接的图片" class="headerlink" title="带链接的图片"></a>带链接的图片</h2><p>要为图片添加链接，请先为图片的 Markdown 标记添加一个方括号，然后紧跟着一个圆括号，并在圆括号中添加链接地址。</p>
-<p><a href="https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv"><img src="https://www.markdown.xyz/assets/images/shiprock.jpg" alt="An old rock in the desert" title="Shiprock, New Mexico by Beau Rogers"></a></p>
+<p><a href="https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv"><img data-src="https://www.markdown.xyz/assets/images/shiprock.jpg" alt="An old rock in the desert" title="Shiprock, New Mexico by Beau Rogers"></a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[![An old rock in the desert](https://www.markdown.xyz/assets/images/shiprock.jpg &quot;Shiprock, New Mexico by Beau Rogers&quot;)](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)</span><br></pre></td></tr></table></figure>
 <h1 id="转义字符（Escaping-Characters）"><a href="#转义字符（Escaping-Characters）" class="headerlink" title="转义字符（Escaping Characters）"></a>转义字符（Escaping Characters）</h1><p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 () 。</p>
 <p>* 如果没有开头的反斜杠字符的话，这一行将显示为无序列表。</p>
