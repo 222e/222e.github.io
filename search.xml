@@ -1058,7 +1058,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#97;&#x6b;&#101;&#64;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#102;&#97;&#x6b;&#101;&#64;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#x61;&#x6b;&#x65;&#64;&#x65;&#120;&#x61;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#111;&#x6d;">&#102;&#x61;&#x6b;&#x65;&#64;&#x65;&#120;&#x61;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#111;&#x6d;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
@@ -1116,6 +1116,12 @@ hexo
       <tags>
         <tag>markdown</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>404</title>
+    <url>//404.html</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">██╗  ██╗ ██████╗ ██╗  ██╗    ███╗   ██╗ ██████╗ ████████╗</span><br><span class="line">██║  ██║██╔═████╗██║  ██║    ████╗  ██║██╔═══██╗╚══██╔══╝</span><br><span class="line">███████║██║██╔██║███████║    ██╔██╗ ██║██║   ██║   ██║</span><br><span class="line">╚════██║████╔╝██║╚════██║    ██║╚██╗██║██║   ██║   ██║</span><br><span class="line">     ██║╚██████╔╝     ██║    ██║ ╚████║╚██████╔╝   ██║</span><br><span class="line">     ╚═╝ ╚═════╝      ╚═╝    ╚═╝  ╚═══╝ ╚═════╝    ╚═╝</span><br><span class="line"></span><br><span class="line">    ███████╗ ██████╗ ██╗   ██╗███╗   ██╗██████╗</span><br><span class="line">    ██╔════╝██╔═══██╗██║   ██║████╗  ██║██╔══██╗</span><br><span class="line">    █████╗  ██║   ██║██║   ██║██╔██╗ ██║██║  ██║</span><br><span class="line">    ██╔══╝  ██║   ██║██║   ██║██║╚██╗██║██║  ██║</span><br><span class="line">    ██║     ╚██████╔╝╚██████╔╝██║ ╚████║██████╔╝</span><br><span class="line">    ╚═╝      ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝</span><br></pre></td></tr></table></figure>
+]]></content>
   </entry>
   <entry>
     <title>categories</title>
@@ -1281,15 +1287,15 @@ hexo
 ]]></content>
   </entry>
   <entry>
+    <title>tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>常用法条大全</title>
     <url>/laws/index.html</url>
     <content><![CDATA[<p>中国法</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>tags</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Custom Files</title>
@@ -3401,7 +3407,8 @@ section Go home
   <entry>
     <title>民法典</title>
     <url>/laws/minfadian/index.html</url>
-    <content><![CDATA[<p>111</p>
+    <content><![CDATA[<p>2020年5月28日，十三届全国人大三次会议表决通过了《中华人民共和国民法典》，自2021年1月1日起施行。婚姻法、继承法、民法通则、收养法、担保法、合同法、物权法、侵权责任法、民法总则同时废止。  </p>
+<p>《中华人民共和国民法典》共7编、1260条，各编依次为<a href="/laws/minfadian/zong">总则</a>、<a href="/laws/minfadian/zong">物权</a>、<a href="/laws/minfadian/zong">合同</a>、<a href="/laws/minfadian/ren">人格权</a>、<a href="/laws/minfadian/hun">婚姻家庭</a>、<a href="/laws/minfadian/hun">继承</a>、<a href="/laws/minfadian/qin">侵权责任</a>，以及<a href="/laws/minfadian/qin">附则</a>。  </p>
 ]]></content>
   </entry>
   <entry>
