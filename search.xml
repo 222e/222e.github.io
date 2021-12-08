@@ -306,9 +306,10 @@ gantt
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;%- if config.symbols_count_time.symbols %&#125;</span><br><span class="line">  &lt;span class=&quot;post-meta-item&quot; title=&quot;&#123;&#123; __(&#x27;symbols_count_time.count&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line">    &lt;span class=&quot;post-meta-item-icon&quot;&gt;</span><br><span class="line">      &lt;i class=&quot;far fa-file-word&quot;&gt;&lt;/i&gt;</span><br><span class="line">    &lt;/span&gt;</span><br><span class="line">    &lt;span class=&quot;post-meta-item-text&quot;&gt;&#123;&#123; __(&#x27;symbols_count_time.count&#x27;) + __(&#x27;symbol.colon&#x27;) &#125;&#125;&lt;/span&gt; \\删去</span><br><span class="line">    &lt;span&gt;&#123;&#123; symbolsCount(post) &#125;&#125;&lt;/span&gt;</span><br><span class="line">  &lt;/span&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br><span class="line"></span><br><span class="line">&#123;%- if config.symbols_count_time.time %&#125;</span><br><span class="line">  &lt;span class=&quot;post-meta-item&quot; title=&quot;&#123;&#123; __(&#x27;symbols_count_time.time&#x27;) &#125;&#125;&quot;&gt;</span><br><span class="line">    &lt;span class=&quot;post-meta-item-icon&quot;&gt;</span><br><span class="line">      &lt;i class=&quot;far fa-clock&quot;&gt;&lt;/i&gt;</span><br><span class="line">    &lt;/span&gt;</span><br><span class="line">    &lt;span class=&quot;post-meta-item-text&quot;&gt;&#123;&#123; __(&#x27;symbols_count_time.time&#x27;) &#125;&#125; &amp;asymp;&lt;/span&gt;</span><br><span class="line">    &lt;span&gt;&#123;&#123; symbolsTime(post, config.symbols_count_time.awl, config.symbols_count_time.wpm, __(&#x27;symbols_count_time.time_minutes&#x27;)) &#125;&#125;&lt;/span&gt;  \\删去</span><br><span class="line">  &lt;/span&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 
-<h1 id="layout-partials-header-menu-item-njk"><a href="#layout-partials-header-menu-item-njk" class="headerlink" title="\layout_partials\header\menu-item.njk"></a>\layout_partials\header\menu-item.njk</h1><p>将第九行fa-fw删去改变为：</p>
+<h1 id="layout-partials-header-menu-item-njk"><a href="#layout-partials-header-menu-item-njk" class="headerlink" title="layout_partials\header\menu-item.njk"></a>layout_partials\header\menu-item.njk</h1><p>将第九行fa-fw删去改变为：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;%- set menuIcon = &#x27;&lt;i class=&quot;&#x27; + value.split(&#x27;||&#x27;)[1] | trim + &#x27; &quot;&gt;&lt;/i&gt;&#x27; if theme.menu_settings.icons and value.split(&#x27;||&#x27;)[1] else &#x27;&#x27; %&#125;</span><br></pre></td></tr></table></figure>
 <p>同时加上主题config文件里图标fa-fw。</p>
+<h1 id="layout-macro-sidebar-njk"><a href="#layout-macro-sidebar-njk" class="headerlink" title="layout_macro\sidebar.njk"></a>layout_macro\sidebar.njk</h1><p>改变见<a href="/7136">hexo加密文章无法显示目录问题之解</a></p>
 ]]></content>
       <categories>
         <category>博客</category>
@@ -679,7 +680,7 @@ gantt
 <li>若承揽合同有效，须承揽合同成立。若承揽合同成立，须双方意思表示一致为一般要件（<a href="/laws/minfadian/he/#471">第471条</a>、<a href="/laws/minfadian/he/#474">第474条</a>、<a href="/laws/minfadian/he/#483">第483条</a>）。进而须讨论意思表示是否构成要约。要件：<ol>
 <li>内容具体确定（<a href="/laws/minfadian/he/#472">第472条</a>第一款），通常需足以确定当事人，标的、数量；</li>
 <li>含有“一经承诺即受拘束的意思”（<a href="/laws/minfadian/he/#472">第472条</a>第2款）；</li>
-<li>为“意思表示”，符合意思表示之外部、内部其他要素。<br>由于梁某一开始表明要sb.洗车的意思 ，但这不是要约。否则若sb.说1000元，显然不符合事实。因此梁某最开始应该是要约邀请，sb.对此之表示可视为要约，梁某的“ok”则为承诺。承诺的构成要件为两个：①：须为意思表示（<a href="/laws/minfadian/he/#479">第479条</a>），即须符合意思表示之一般构成要件。②：须其内容是对要约之同意。（<a href="/laws/minfadian/he/#479">第479条</a>、<a href="/laws/minfadian/he/#488">第488条</a>第一款）。因此梁某构成承诺。<br>综上，承揽合同成立。</li>
+<li>为“意思表示”，符合意思表示之外部、内部其他要素。<br>梁某最开始应该是要约邀请，sb.对此之表示可视为要约，梁某的“ok”则为承诺。承诺的构成要件为两个：①：须为意思表示（<a href="/laws/minfadian/he/#479">第479条</a>），即须符合意思表示之一般构成要件。②：须其内容是对要约之同意。（<a href="/laws/minfadian/he/#479">第479条</a>、<a href="/laws/minfadian/he/#488">第488条</a>第一款）。因此梁某构成承诺。<br>综上，承揽合同成立。</li>
 </ol>
 </li>
 <li>合同有效不仅要承揽合同成立，还要合同生效。<ol>
@@ -771,6 +772,45 @@ gantt
       <tags>
         <tag>模板</tag>
         <tag>案例分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>民法学重要概念解读</title>
+    <url>/1eef/</url>
+    <content><![CDATA[<blockquote>
+<p>民法学重要概念</p>
+</blockquote>
+<span id="more"></span>
+
+<!-- 分类：git 编程 hexo 博客 互联网 哲学 日记 法律 测试页面 胡思乱想 图片：https://cdn.jsdelivr.net/gh/222e/2021@master/pic/**/******.png MP4：https://cdn.jsdelivr.net/gh/222e/2021@master/mp4/**/******.mp4 MP3：https://cdn.jsdelivr.net/gh/222e/2021@master/mp3/**/******.mp3  -->
+
+<h1 id="合同编"><a href="#合同编" class="headerlink" title="合同编"></a>合同编</h1><p>要约主要出现在合同的订立一章，要约和要约邀请的区别第471条和第472条详细做了规定。<br>区别如下：</p>
+<table>
+<thead>
+<tr>
+<th><center>要约</center></th>
+<th><center>要约邀请</center></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>要约是当事人自己主动愿意订立合同的意思表示，以订立合同为直接的目的</td>
+<td>要约邀请是当事人希望对方主动向自己提出订立合同的意思表示</td>
+</tr>
+<tr>
+<td>要约必须包括将来可能订立的合同的主要的内容，要约中含有当事人表示愿意接受要约约束的意思</td>
+<td>要约邀请则不含有当事人接受约束的意思</td>
+</tr>
+<tr>
+<td>要约大多数是针对特定的相对人的，故要约往往采用对话方式和信函的方式</td>
+<td>要约邀请一般针对不特定的相对人的，故往往通过电视、报刊等媒介手段</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>法律，民法</category>
+      </categories>
+      <tags>
+        <tag>概念解读</tag>
       </tags>
   </entry>
   <entry>
@@ -1119,7 +1159,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#x61;&#107;&#101;&#64;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#x65;&#x2e;&#99;&#111;&#x6d;">&#102;&#x61;&#107;&#101;&#64;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#x65;&#x2e;&#99;&#111;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#97;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#x66;&#97;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#x6f;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
@@ -1632,29 +1672,6 @@ hexo
 
 <p>And it could automatically minify the JS and CSS files, even if you don’t have the minified version. Just use the <code>filename.min.js</code> or the <code>filename.min.css</code> to replace the file above. For more information: <a href="https://www.jsdelivr.com/features">https://www.jsdelivr.com/features</a></p>
 </div>
-]]></content>
-  </entry>
-  <entry>
-    <title>Configuration</title>
-    <url>/docs/getting-started/configuration.html</url>
-    <content><![CDATA[<p>How to configure Hexo and NexT? The traditional approach is to store some options in <mark class="label info">site config file</mark> and other options in <mark class="label primary">theme config file</mark>. This approach is applicable, but it is not smooth to update NexT theme from pulling or downloading new releases.</p>
-<p>At present, NexT encourages users to use the Alternate Theme Config. It’s a feature of Hexo and the documentation is here: <a href="https://hexo.io/docs/configuration.html#Using-an-Alternate-Config">Hexo Configuration</a>.</p>
-<p>This tutorial shows you how to configure NexT using Alternate Theme Config. Please choose only one of the following solutions and resume next steps.</p>
-<h3 id="config-name-yml"><a href="#config-name-yml" class="headerlink" title="_config.[name].yml"></a><code>_config.[name].yml</code></h3><p>With this way, all your configurations locate in config file <code>/_config.[name].yml</code>. Replace <code>[name]</code> with the value of <code>theme</code> option in <mark class="label info">site config file</mark>, e.g. <code>next</code>.</p>
-<h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h4><ol>
-<li><p>Please ensure you are using Hexo 5.0 (or later).</p>
-</li>
-<li><p>Create a config file in site’s root directory, e.g. <code>_config.next.yml</code>.</p>
-</li>
-<li><p>Copy needed NexT theme options from <mark class="label primary">theme config file</mark> into this config file. If it is the first time to install NexT, then copy the whole <mark class="label primary">theme config file</mark> by the following command:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br><span class="line"><span class="comment"># Installed through Git</span></span><br><span class="line">cp themes/next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h3 id="theme-config"><a href="#theme-config" class="headerlink" title="theme_config"></a><code>theme_config</code></h3><p>With this way, all your configurations locate in main <mark class="label info">site config file</mark>. You don’t need to edit <mark class="label primary">theme config file</mark> or create any new files. But you need to <strong><a href="/docs/troubleshooting.html#Keep-Up-Indentation">keep up indentation</a></strong> within <code>theme_config</code> option.</p>
-<h4 id="Usage-1"><a href="#Usage-1" class="headerlink" title="Usage"></a>Usage</h4><ol>
-<li>Please confirm that the <code>/source/_data/next.yml</code> file does not exist (backup and delete it if exists).</li>
-<li>Copy needed NexT theme options from <mark class="label primary">theme config file</mark> into <mark class="label info">site config file</mark>, then<br> 2.1. Move all this settings to the right with two spaces (in Visual Studio Code: select all strings, <kbd>CTRL</kbd> + <kbd>]</kbd>).<br> 2.2. Add <code>theme_config:</code> parameter above all this settings.</li>
-</ol>
-<h3 id="next-yml-Deprecated"><a href="#next-yml-Deprecated" class="headerlink" title="next.yml (Deprecated)"></a><code>next.yml</code> (Deprecated)</h3><p>Older versions of NexT theme also provide another configuration method, which is to place the theme configuration in the <code>/source/_data/next.yml</code> file. This method is deprecated, please use <code>_config.next.yml</code> instead. If the <code>/source/_data/next.yml</code> file exists, move it to the Hexo root directory and rename it to <code>_config.next.yml</code>.</p>
 ]]></content>
   </entry>
   <entry>
@@ -3487,6 +3504,29 @@ section Go home
 <h1 id="第四章-肖像权"><a href="#第四章-肖像权" class="headerlink" title="第四章　肖像权"></a>第四章　肖像权</h1><p><span id="1018">第1018条</span>&emsp;&emsp;自然人享有肖像权，有权依法制作、使用、公开或者许可他人使用自己的肖像。<br>肖像是通过影像、雕塑、绘画等方式在一定载体上所反映的特定自然人可以被识别的外部形象。<br><span id="1019">第1019条</span>&emsp;&emsp;任何组织或者个人不得以丑化、污损，或者利用信息技术手段伪造等方式侵害他人的肖像权。未经肖像权人同意，不得制作、使用、公开肖像权人的肖像，但是法律另有规定的除外。<br>未经肖像权人同意，肖像作品权利人不得以发表、复制、发行、出租、展览等方式使用或者公开肖像权人的肖像。<br><span id="1020">第1020条</span>&emsp;&emsp;合理实施下列行为的，可以不经肖像权人同意：<br>（一）为个人学习、艺术欣赏、课堂教学或者科学研究，在必要范围内使用肖像权人已经公开的肖像；<br>（二）为实施新闻报道，不可避免地制作、使用、公开肖像权人的肖像；<br>（三）为依法履行职责，国家机关在必要范围内制作、使用、公开肖像权人的肖像；<br>（四）为展示特定公共环境，不可避免地制作、使用、公开肖像权人的肖像；<br>（五）为维护公共利益或者肖像权人合法权益，制作、使用、公开肖像权人的肖像的其他行为。<br><span id="1021">第1021条</span>&emsp;&emsp;当事人对肖像许可使用合同中关于肖像使用条款的理解有争议的，应当作出有利于肖像权人的解释。<br><span id="1022">第1022条</span>&emsp;&emsp;当事人对肖像许可使用期限没有约定或者约定不明确的，任何一方当事人可以随时解除肖像许可使用合同，但是应当在合理期限之前通知对方。<br>当事人对肖像许可使用期限有明确约定，肖像权人有正当理由的，可以解除肖像许可使用合同，但是应当在合理期限之前通知对方。因解除合同造成对方损失的，除不可归责于肖像权人的事由外，应当赔偿损失。<br><span id="1023">第1023条</span>&emsp;&emsp;对姓名等的许可使用，参照适用肖像许可使用的有关规定。<br>对自然人声音的保护，参照适用肖像权保护的有关规定。</p>
 <h1 id="第五章-名誉权和荣誉权"><a href="#第五章-名誉权和荣誉权" class="headerlink" title="第五章　名誉权和荣誉权"></a>第五章　名誉权和荣誉权</h1><p><span id="1024">第1024条</span>&emsp;&emsp;民事主体享有名誉权。任何组织或者个人不得以侮辱、诽谤等方式侵害他人的名誉权。<br>名誉是对民事主体的品德、声望、才能、信用等的社会评价。<br><span id="1025">第1025条</span>&emsp;&emsp;行为人为公共利益实施新闻报道、舆论监督等行为，影响他人名誉的，不承担民事责任，但是有下列情形之一的除外：<br>（一）捏造、歪曲事实；<br>（二）对他人提供的严重失实内容未尽到合理核实义务；<br>（三）使用侮辱性言辞等贬损他人名誉。<br><span id="1026">第1026条</span>&emsp;&emsp;认定行为人是否尽到前条第二项规定的合理核实义务，应当考虑下列因素：<br>（一）内容来源的可信度；<br>（二）对明显可能引发争议的内容是否进行了必要的调查；<br>（三）内容的时限性；<br>（四）内容与公序良俗的关联性；<br>（五）受害人名誉受贬损的可能性；<br>（六）核实能力和核实成本。<br><span id="1027">第1027条</span>&emsp;&emsp;行为人发表的文学、艺术作品以真人真事或者特定人为描述对象，含有侮辱、诽谤内容，侵害他人名誉权的，受害人有权依法请求该行为人承担民事责任。<br>行为人发表的文学、艺术作品不以特定人为描述对象，仅其中的情节与该特定人的情况相似的，不承担民事责任。<br><span id="1028">第1028条</span>&emsp;&emsp;民事主体有证据证明报刊、网络等媒体报道的内容失实，侵害其名誉权的，有权请求该媒体及时采取更正或者删除等必要措施。<br><span id="1029">第1029条</span>&emsp;&emsp;民事主体可以依法查询自己的信用评价；发现信用评价不当的，有权提出异议并请求采取更正、删除等必要措施。信用评价人应当及时核查，经核查属实的，应当及时采取必要措施。<br><span id="1030">第1030条</span>&emsp;&emsp;民事主体与征信机构等信用信息处理者之间的关系，适用本编有关个人信息保护的规定和其他法律、行政法规的有关规定。<br><span id="1031">第1031条</span>&emsp;&emsp;民事主体享有荣誉权。任何组织或者个人不得非法剥夺他人的荣誉称号，不得诋毁、贬损他人的荣誉。<br>获得的荣誉称号应当记载而没有记载的，民事主体可以请求记载；获得的荣誉称号记载错误的，民事主体可以请求更正。</p>
 <h1 id="第六章-隐私权和个人信息保护"><a href="#第六章-隐私权和个人信息保护" class="headerlink" title="第六章　隐私权和个人信息保护"></a>第六章　隐私权和个人信息保护</h1><p><span id="1032">第1032条</span>&emsp;&emsp;自然人享有隐私权。任何组织或者个人不得以刺探、侵扰、泄露、公开等方式侵害他人的隐私权。<br>隐私是自然人的私人生活安宁和不愿为他人知晓的私密空间、私密活动、私密信息。<br><span id="1033">第1033条</span>&emsp;&emsp;除法律另有规定或者权利人明确同意外，任何组织或者个人不得实施下列行为：<br>（一）以电话、短信、即时通讯工具、电子邮件、传单等方式侵扰他人的私人生活安宁；<br>（二）进入、拍摄、窥视他人的住宅、宾馆房间等私密空间；<br>（三）拍摄、窥视、窃听、公开他人的私密活动；<br>（四）拍摄、窥视他人身体的私密部位；<br>（五）处理他人的私密信息；<br>（六）以其他方式侵害他人的隐私权。<br><span id="1034">第1034条</span>&emsp;&emsp;自然人的个人信息受法律保护。<br>个人信息是以电子或者其他方式记录的能够单独或者与其他信息结合识别特定自然人的各种信息，包括自然人的姓名、出生日期、身份证件号码、生物识别信息、住址、电话号码、电子邮箱、健康信息、行踪信息等。<br>个人信息中的私密信息，适用有关隐私权的规定；没有规定的，适用有关个人信息保护的规定。<br><span id="1035">第1035条</span>&emsp;&emsp;处理个人信息的，应当遵循合法、正当、必要原则，不得过度处理，并符合下列条件：<br>（一）征得该自然人或者其监护人同意，但是法律、行政法规另有规定的除外；<br>（二）公开处理信息的规则；<br>（三）明示处理信息的目的、方式和范围；<br>（四）不违反法律、行政法规的规定和双方的约定。<br>个人信息的处理包括个人信息的收集、存储、使用、加工、传输、提供、公开等。<br><span id="1036">第1036条</span>&emsp;&emsp;处理个人信息，有下列情形之一的，行为人不承担民事责任：<br>（一）在该自然人或者其监护人同意的范围内合理实施的行为；<br>（二）合理处理该自然人自行公开的或者其他已经合法公开的信息，但是该自然人明确拒绝或者处理该信息侵害其重大利益的除外；<br>（三）为维护公共利益或者该自然人合法权益，合理实施的其他行为。<br><span id="1037">第1037条</span>&emsp;&emsp;自然人可以依法向信息处理者查阅或者复制其个人信息；发现信息有错误的，有权提出异议并请求及时采取更正等必要措施。<br>自然人发现信息处理者违反法律、行政法规的规定或者双方的约定处理其个人信息的，有权请求信息处理者及时删除。<br><span id="1038">第1038条</span>&emsp;&emsp;信息处理者不得泄露或者篡改其收集、存储的个人信息；未经自然人同意，不得向他人非法提供其个人信息，但是经过加工无法识别特定个人且不能复原的除外。<br>信息处理者应当采取技术措施和其他必要措施，确保其收集、存储的个人信息安全，防止信息泄露、篡改、丢失；发生或者可能发生个人信息泄露、篡改、丢失的，应当及时采取补救措施，按照规定告知自然人并向有关主管部门报告。<br><span id="1039">第1039条</span>&emsp;&emsp;国家机关、承担行政职能的法定机构及其工作人员对于履行职责过程中知悉的自然人的隐私和个人信息，应当予以保密，不得泄露或者向他人非法提供。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Configuration</title>
+    <url>/docs/getting-started/configuration.html</url>
+    <content><![CDATA[<p>How to configure Hexo and NexT? The traditional approach is to store some options in <mark class="label info">site config file</mark> and other options in <mark class="label primary">theme config file</mark>. This approach is applicable, but it is not smooth to update NexT theme from pulling or downloading new releases.</p>
+<p>At present, NexT encourages users to use the Alternate Theme Config. It’s a feature of Hexo and the documentation is here: <a href="https://hexo.io/docs/configuration.html#Using-an-Alternate-Config">Hexo Configuration</a>.</p>
+<p>This tutorial shows you how to configure NexT using Alternate Theme Config. Please choose only one of the following solutions and resume next steps.</p>
+<h3 id="config-name-yml"><a href="#config-name-yml" class="headerlink" title="_config.[name].yml"></a><code>_config.[name].yml</code></h3><p>With this way, all your configurations locate in config file <code>/_config.[name].yml</code>. Replace <code>[name]</code> with the value of <code>theme</code> option in <mark class="label info">site config file</mark>, e.g. <code>next</code>.</p>
+<h4 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h4><ol>
+<li><p>Please ensure you are using Hexo 5.0 (or later).</p>
+</li>
+<li><p>Create a config file in site’s root directory, e.g. <code>_config.next.yml</code>.</p>
+</li>
+<li><p>Copy needed NexT theme options from <mark class="label primary">theme config file</mark> into this config file. If it is the first time to install NexT, then copy the whole <mark class="label primary">theme config file</mark> by the following command:</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br><span class="line"><span class="comment"># Installed through Git</span></span><br><span class="line">cp themes/next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="theme-config"><a href="#theme-config" class="headerlink" title="theme_config"></a><code>theme_config</code></h3><p>With this way, all your configurations locate in main <mark class="label info">site config file</mark>. You don’t need to edit <mark class="label primary">theme config file</mark> or create any new files. But you need to <strong><a href="/docs/troubleshooting.html#Keep-Up-Indentation">keep up indentation</a></strong> within <code>theme_config</code> option.</p>
+<h4 id="Usage-1"><a href="#Usage-1" class="headerlink" title="Usage"></a>Usage</h4><ol>
+<li>Please confirm that the <code>/source/_data/next.yml</code> file does not exist (backup and delete it if exists).</li>
+<li>Copy needed NexT theme options from <mark class="label primary">theme config file</mark> into <mark class="label info">site config file</mark>, then<br> 2.1. Move all this settings to the right with two spaces (in Visual Studio Code: select all strings, <kbd>CTRL</kbd> + <kbd>]</kbd>).<br> 2.2. Add <code>theme_config:</code> parameter above all this settings.</li>
+</ol>
+<h3 id="next-yml-Deprecated"><a href="#next-yml-Deprecated" class="headerlink" title="next.yml (Deprecated)"></a><code>next.yml</code> (Deprecated)</h3><p>Older versions of NexT theme also provide another configuration method, which is to place the theme configuration in the <code>/source/_data/next.yml</code> file. This method is deprecated, please use <code>_config.next.yml</code> instead. If the <code>/source/_data/next.yml</code> file exists, move it to the Hexo root directory and rename it to <code>_config.next.yml</code>.</p>
 ]]></content>
   </entry>
   <entry>
