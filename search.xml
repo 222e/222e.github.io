@@ -900,6 +900,28 @@ gantt
       </tags>
   </entry>
   <entry>
+    <title>随笔</title>
+    <url>/a9a8/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="38e4c6492790084470ae2f806078f992c4ef345b11087156f80f6f9b251704c9">1cc905719f799dcf4e6b573af7a514ae25e9302fe837dcec6fe33c222b7a4965ef043eb44abe19a20d1cf123cd3e4d16ae7c73e5a7d4effd70e76c1bcc60a7262a1d5c40c88d0e767c92a8509c4bd2f054948b6c0b00f0107c8a32cb9ef667f77410f144bba16e94185768f18c816c863a2c3e7038d2d00a406cf23545587dbfc6df56ec0ced2f078c0e187f4f1bae01096fa837c7001f012cb64ba6c4fd6dc69a5cbfec16ba76ff4f65d446135875e61debecb522f6aaaa4f9771d042896d7e0cebb974879da03ea758edc553f4a4f9e532bf49cde956cc65023c71b470c40576bba21e24d0cfffc1ce4138959dd424aaa79be41416151d2fa0886f850367bb518194e6da1cea6482c1651fed7656bafd5df32a49c1690603f1f01313fab4cd4fe635cdfd03153c396bc9ef2e12b36c8eb900434b87e4ec62bacb080fa8163a0e97ca004076e9d27d48ff47276cfe8401d27fd5221cbfa65ca1678ff942093d46ef3c20a38a4e403871e7b9add03fc0aa52b941c20ee53ef717e558b32cfd90b355dbc2760b525a1d782b15ae052244e8cec456efc55a2f90a10e6855343543875fc1d57b8000464510c55c980e43116f340deb7182630838f8935514085a04fa222d188e9c0b44289fc6e5dc1bd112b204783cc6fca4f07fa2df9b0ba40d05038b124b0da44fd8e9a4ba51604a8f3f4dd17541b7f9d645c70abf515b78dbe8fb2c0bf8364d753e5bd46b5c8fabd7fdd8d7e8e9fe570e46c3dba2250b84ed3ee3f827d18884ea251ac336010ec4ecad390a65383acffe97abfc89b3d06b98605f479ca2547f188e156819424fad3b5b6341797f0299721532d255bbb54a74280570e6bc0c9514bd5a752a92b7a224b378076adc1471bd85b1cf7b7d670d65c3</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-shrink">
+      <input class="hbe hbe-input-field hbe-input-field-shrink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-shrink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-shrink">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>成长</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>自我与本我</title>
     <url>/4197/</url>
     <content><![CDATA[<blockquote>
@@ -1179,7 +1201,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#97;&#x6b;&#101;&#64;&#101;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#x6f;&#x6d;">&#x66;&#97;&#x6b;&#101;&#64;&#101;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#97;&#x6b;&#101;&#x40;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;">&#102;&#97;&#x6b;&#101;&#x40;&#101;&#x78;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
