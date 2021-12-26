@@ -900,6 +900,20 @@ gantt
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>/0/</url>
+    <content><![CDATA[<hr>
+<p>title: 随笔<br>tags: 成长<br>categories:</p>
+<ul>
+<li>日记<br>password: fxltxssx<br>comments: false<br>date: 2021-12-25 18:51:15 </li>
+</ul>
+<hr>
+<p>  　　如果你没有体味过绝望的感觉，那么去考研吧。<br>  　　时至今日，我才体会到肚子里没货，是多么难受。<br>  　　翻来覆去，脑子空白，没有了那灵机一动的感觉。<br>  　　站立在冷风中，口里不知念叨些什么不明的东西。<br>  　　错综复杂的心情在心里游荡，想解脱却解脱不了。<br>  　　字迹全无那种认真的感觉，只看见胸无点墨乱画。<br>  　　未来该往何处去，又在哪里能得到回报与解脱呀！
+  　　
+  　　</p>
+]]></content>
+  </entry>
+  <entry>
     <title>自我与本我</title>
     <url>/4197/</url>
     <content><![CDATA[<blockquote>
@@ -1179,7 +1193,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#x61;&#107;&#x65;&#x40;&#x65;&#x78;&#x61;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#111;&#x6d;">&#x66;&#x61;&#107;&#x65;&#x40;&#x65;&#x78;&#x61;&#109;&#x70;&#x6c;&#101;&#46;&#x63;&#111;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#x61;&#107;&#x65;&#x40;&#x65;&#120;&#x61;&#109;&#x70;&#108;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#x66;&#x61;&#107;&#x65;&#x40;&#x65;&#120;&#x61;&#109;&#x70;&#108;&#x65;&#x2e;&#x63;&#x6f;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
