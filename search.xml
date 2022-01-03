@@ -466,6 +466,25 @@ gantt
       </tags>
   </entry>
   <entry>
+    <title>开启gitlabpages</title>
+    <url>/9583/</url>
+    <content><![CDATA[<blockquote>
+<p>gitlab pages不同于github pages，需要设置一个集成文件.gitlab-ci.yml</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="如果是网页文件"><a href="#如果是网页文件" class="headerlink" title="如果是网页文件"></a>如果是网页文件</h1><p>创建project：<code>222e.gitlab.io</code><br>在根目录创建.gitlab-ci.yml文件，写入以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pages:</span><br><span class="line">  stage: deploy</span><br><span class="line">  script:</span><br><span class="line">    - mkdir .public</span><br><span class="line">    - cp -r * .public</span><br><span class="line">    - mv .public public</span><br><span class="line">  artifacts:</span><br><span class="line">    paths:</span><br><span class="line">      - public</span><br><span class="line">  rules:</span><br><span class="line">    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH</span><br></pre></td></tr></table></figure>
+<p>参考<a href="https://docs.gitlab.com/ee/ci/yaml/index.html#pages" title="官方文档">链接</a>。<br><br>接下来访问×××.gitlab.io的文件就可以看到网页了。</p>
+<h1 id="如果使用hexo等工具"><a href="#如果使用hexo等工具" class="headerlink" title="如果使用hexo等工具"></a>如果使用hexo等工具</h1><p>参考<a href="https://gitlab.com/pages/hexo/-/blob/master/.gitlab-ci.yml" title="hexo">hexo-gitlab</a></p>
+]]></content>
+      <categories>
+        <category>网页</category>
+      </categories>
+      <tags>
+        <tag>gitlab</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>批量替换之巧法</title>
     <url>/f28e/</url>
     <content><![CDATA[<blockquote>
@@ -1201,7 +1220,7 @@ hexo
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#x61;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#102;&#x61;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#x61;&#107;&#101;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;">&#x66;&#x61;&#107;&#101;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
