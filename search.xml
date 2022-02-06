@@ -412,7 +412,7 @@ bootstrap标签 label 【六大类型：default;primary;success;info;warning;dan
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#x61;&#x6b;&#101;&#x40;&#x65;&#x78;&#97;&#x6d;&#112;&#108;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#x66;&#x61;&#x6b;&#101;&#x40;&#x65;&#x78;&#97;&#x6d;&#112;&#108;&#x65;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#x61;&#x6b;&#101;&#64;&#101;&#120;&#97;&#109;&#x70;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;">&#102;&#x61;&#x6b;&#101;&#64;&#101;&#120;&#97;&#109;&#x70;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
@@ -2126,22 +2126,6 @@ hexo
 ]]></content>
   </entry>
   <entry>
-    <title>Label</title>
-    <url>/docs/tag-plugins/label.html</url>
-    <content><![CDATA[<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">label</span> [class]@text %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>[class]</code> : <em>Optional parameter.</em> Supported values: <code>default</code> | <code>primary</code> | <code>success</code> | <code>info</code> | <code>warning</code> | <code>danger</code>.<br>If not specified, the default style of the browser will be used, which may be different in different browsers.</li>
-<li><code>text</code>    : <code>@text</code> can be specified with or without space<br>E.g. <code>success @text</code> is the same as <code>success@text</code>.</li>
-</ul>
-<h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="xml">Lorem </span><span class="template-tag">&#123;% <span class="name">label</span> @ipsum %&#125;</span><span class="xml"> </span><span class="template-tag">&#123;% <span class="name">label</span> primary@dolor sit %&#125;</span><span class="xml"> amet, consectetur </span><span class="template-tag">&#123;% <span class="name">label</span> success@adipiscing elit, %&#125;</span><span class="xml"> sed </span><span class="template-tag">&#123;% <span class="name">label</span> info@do eiusmod %&#125;</span><span class="xml"> tempor incididunt ut labore et dolore magna aliqua.</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">Ut enim *</span><span class="template-tag">&#123;% <span class="name">label</span> warning @ad %&#125;</span><span class="xml">* minim veniam, quis **</span><span class="template-tag">&#123;% <span class="name">label</span> danger@nostrud %&#125;</span><span class="xml">** exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">Duis aute irure dolor in reprehenderit in voluptate ~~</span><span class="template-tag">&#123;% <span class="name">label</span> default @velit %&#125;</span><span class="xml">~~ <span class="tag">&lt;<span class="name">mark</span>&gt;</span>esse<span class="tag">&lt;/<span class="name">mark</span>&gt;</span> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></span><br></pre></td></tr></table></figure>
-
-<p>Lorem <mark class="label ">ipsum</mark> <mark class="label primary">dolor sit</mark> amet, consectetur <mark class="label success">adipiscing elit,</mark> sed <mark class="label info">do eiusmod</mark> tempor incididunt ut labore et dolore magna aliqua.</p>
-<p>Ut enim <em><mark class="label warning">ad</mark></em> minim veniam, quis <strong><mark class="label danger">nostrud</mark></strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<p>Duis aute irure dolor in reprehenderit in voluptate <del><mark class="label default">velit</mark></del> <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Tag Plugins</title>
     <url>/docs/tag-plugins/index.html</url>
     <content><![CDATA[<p>Tag Plugin is a way to make special style contents supported by Hexo. For example, we cannot show a image with custom size in standard Markdown. And then we can use tag plugins to solve it. <a href="https://hexo.io/docs/tag-plugins">Hexo has a lot of tags</a> which can help user. And Hexo also have interfaces to themes which make themes able to create their own tags. Following tags are provided by NexT:</p>
@@ -2174,6 +2158,69 @@ hexo
 <h4 id="Examples-1"><a href="#Examples-1" class="headerlink" title="Examples"></a>Examples</h4><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">video</span> https://example.com/sample.mp4 %&#125;</span></span><br></pre></td></tr></table></figure>
 
 <figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">video</span> /path/to/your/video.mp4 %&#125;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>Label</title>
+    <url>/docs/tag-plugins/label.html</url>
+    <content><![CDATA[<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">label</span> [class]@text %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>[class]</code> : <em>Optional parameter.</em> Supported values: <code>default</code> | <code>primary</code> | <code>success</code> | <code>info</code> | <code>warning</code> | <code>danger</code>.<br>If not specified, the default style of the browser will be used, which may be different in different browsers.</li>
+<li><code>text</code>    : <code>@text</code> can be specified with or without space<br>E.g. <code>success @text</code> is the same as <code>success@text</code>.</li>
+</ul>
+<h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="xml">Lorem </span><span class="template-tag">&#123;% <span class="name">label</span> @ipsum %&#125;</span><span class="xml"> </span><span class="template-tag">&#123;% <span class="name">label</span> primary@dolor sit %&#125;</span><span class="xml"> amet, consectetur </span><span class="template-tag">&#123;% <span class="name">label</span> success@adipiscing elit, %&#125;</span><span class="xml"> sed </span><span class="template-tag">&#123;% <span class="name">label</span> info@do eiusmod %&#125;</span><span class="xml"> tempor incididunt ut labore et dolore magna aliqua.</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">Ut enim *</span><span class="template-tag">&#123;% <span class="name">label</span> warning @ad %&#125;</span><span class="xml">* minim veniam, quis **</span><span class="template-tag">&#123;% <span class="name">label</span> danger@nostrud %&#125;</span><span class="xml">** exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">Duis aute irure dolor in reprehenderit in voluptate ~~</span><span class="template-tag">&#123;% <span class="name">label</span> default @velit %&#125;</span><span class="xml">~~ <span class="tag">&lt;<span class="name">mark</span>&gt;</span>esse<span class="tag">&lt;/<span class="name">mark</span>&gt;</span> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></span><br></pre></td></tr></table></figure>
+
+<p>Lorem <mark class="label ">ipsum</mark> <mark class="label primary">dolor sit</mark> amet, consectetur <mark class="label success">adipiscing elit,</mark> sed <mark class="label info">do eiusmod</mark> tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Ut enim <em><mark class="label warning">ad</mark></em> minim veniam, quis <strong><mark class="label danger">nostrud</mark></strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>Duis aute irure dolor in reprehenderit in voluptate <del><mark class="label default">velit</mark></del> <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Link Grid</title>
+    <url>/docs/tag-plugins/link-grid.html</url>
+    <content><![CDATA[<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">linkgrid</span> [image] [delimiter] [comment] %&#125;</span><span class="template-tag">&#123;% <span class="name">endlinkgrid</span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- Tag Alias --&gt;</span></span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">lg</span> [image] [delimiter] [comment] %&#125;</span><span class="template-tag">&#123;% <span class="name">endlg</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>[image]</code>     : <em>Optional parameter.</em> Default image URL.</li>
+<li><code>[delimiter]</code> : <em>Optional parameter.</em> If the optional delimiter parameter is given, it is interpreted as the delimiter of items in each line.</li>
+<li><code>[comment]</code>   : <em>Optional parameter.</em> If the optional comment parameter is given, it is interpreted as the symbol to comment out a line.</li>
+</ul>
+<h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">linkgrid</span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">% Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endlinkgrid</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<div class="link-grid"><div class="link-grid-container">
+<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div><div class="link-grid-container">
+<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div><div class="link-grid-container">
+<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div><div class="link-grid-container">
+<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div></div>
+
+<figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">lg</span> https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png , %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">Theme NexT , https://theme-next.js.org/ , Stay Simple. Stay NexT. , https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT , https://theme-next.js.org/ , Stay Simple. Stay NexT. , https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT , https://theme-next.js.org/ , Stay Simple. Stay NexT. , https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">% Theme NexT , https://theme-next.js.org/ , Stay Simple. Stay NexT. , https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endlg</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<div class="link-grid"><div class="link-grid-container">
+<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div><div class="link-grid-container">
+<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div><div class="link-grid-container">
+<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
+<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
+<a href="https://theme-next.js.org/"></a>
+</div></div>
 ]]></content>
   </entry>
   <entry>
@@ -2279,53 +2326,6 @@ section Go home
   Go downstairs: 5: Me
   Sit down: 3: Me
 </pre>
-]]></content>
-  </entry>
-  <entry>
-    <title>Link Grid</title>
-    <url>/docs/tag-plugins/link-grid.html</url>
-    <content><![CDATA[<h3 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h3><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">linkgrid</span> [image] [delimiter] [comment] %&#125;</span><span class="template-tag">&#123;% <span class="name">endlinkgrid</span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- Tag Alias --&gt;</span></span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">lg</span> [image] [delimiter] [comment] %&#125;</span><span class="template-tag">&#123;% <span class="name">endlg</span> %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>[image]</code>     : <em>Optional parameter.</em> Default image URL.</li>
-<li><code>[delimiter]</code> : <em>Optional parameter.</em> If the optional delimiter parameter is given, it is interpreted as the delimiter of items in each line.</li>
-<li><code>[comment]</code>   : <em>Optional parameter.</em> If the optional comment parameter is given, it is interpreted as the symbol to comment out a line.</li>
-</ul>
-<h3 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h3><figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">linkgrid</span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">% Theme NexT | https://theme-next.js.org/ | Stay Simple. Stay NexT. | https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endlinkgrid</span> %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<div class="link-grid"><div class="link-grid-container">
-<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
-<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
-<a href="https://theme-next.js.org/"></a>
-</div><div class="link-grid-container">
-<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
-<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
-<a href="https://theme-next.js.org/"></a>
-</div><div class="link-grid-container">
-<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
-<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
-<a href="https://theme-next.js.org/"></a>
-</div><div class="link-grid-container">
-<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
-<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
-<a href="https://theme-next.js.org/"></a>
-</div></div>
-
-<figure class="highlight jinja"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">lg</span> https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png , %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">Theme NexT , https://theme-next.js.org/ , Stay Simple. Stay NexT. , https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT , https://theme-next.js.org/ , Stay Simple. Stay NexT. , https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">Theme NexT , https://theme-next.js.org/ , Stay Simple. Stay NexT. , https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml">% Theme NexT , https://theme-next.js.org/ , Stay Simple. Stay NexT. , https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endlg</span> %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<div class="link-grid"><div class="link-grid-container">
-<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
-<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
-<a href="https://theme-next.js.org/"></a>
-</div><div class="link-grid-container">
-<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
-<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
-<a href="https://theme-next.js.org/"></a>
-</div><div class="link-grid-container">
-<object class="link-grid-image" data="https://cdn.jsdelivr.net/gh/next-theme/theme-next-docs@master/source/images/apple-touch-icon-next.png"></object>
-<p>Theme NexT</p><p>Stay Simple. Stay NexT.</p>
-<a href="https://theme-next.js.org/"></a>
-</div></div>
 ]]></content>
   </entry>
   <entry>
