@@ -412,7 +412,7 @@ bootstrap标签 label 【六大类型：default;primary;success;info;warning;dan
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#97;&#x6b;&#101;&#64;&#101;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#111;&#109;">&#102;&#97;&#x6b;&#101;&#64;&#101;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#111;&#109;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#x61;&#x6b;&#x65;&#x40;&#x65;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#99;&#111;&#x6d;">&#102;&#x61;&#x6b;&#x65;&#x40;&#x65;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#99;&#111;&#x6d;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
@@ -563,7 +563,7 @@ gantt
 
 
 <h1 id="source-js-motion-js"><a href="#source-js-motion-js" class="headerlink" title="source\js\motion.js"></a>source\js\motion.js</h1><p>L21 将200修改为50，以加快动画。 </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">const timeline = window.anime.timeline(&#123;</span><br><span class="line"></span><br><span class="line">​    duration: 50,</span><br><span class="line"></span><br><span class="line">​    easing  : &#x27;linear&#x27;</span><br><span class="line"></span><br><span class="line">   &#125;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><figcaption><span>source\js\motion.js</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> timeline = <span class="built_in">window</span>.anime.timeline(&#123;</span><br><span class="line"></span><br><span class="line">​    duration: <span class="number">50</span>,</span><br><span class="line"></span><br><span class="line">​    easing  : <span class="string">&#x27;linear&#x27;</span></span><br><span class="line"></span><br><span class="line">   &#125;);</span><br></pre></td></tr></table></figure>
 
 <h1 id="layout-macro-sidebar-njk"><a href="#layout-macro-sidebar-njk" class="headerlink" title="layout_macro\sidebar.njk"></a>layout_macro\sidebar.njk</h1><p>改变见<a href="/7136">hexo加密文章无法显示目录问题之解</a></p>
 ]]></content>
