@@ -134,28 +134,6 @@ hexo
       </tags>
   </entry>
   <entry>
-    <title>生与死</title>
-    <url>/a1c9/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="12b320503f9a4aa7192c7b1c5d47ce592945cdb1c75b1ffcab7f26b5fdaab0fa">1cc905719f799dcf4e6b573af7a514ae6fd72240acc194e1841f417278011493fa8e64f0f8ef781b7c7ad1a42cabedcfe1a09e51ae212f2342c63a56659d0478cb3c9f2ece47b955f58e4deb428f3e3407397681038958573fcdf6444493463363efe75fc7b9ea351dc78ccdfa7fa9e0bfc1d4ae2740a1afa50d4d962f7b9ab9c68618a3f6cad439cb5862ee64d6d697404a7f1199e6f29bd1bc80ed135dc5477d2cd71ce95aa0847ccc65985a4d68450b053eb0a3ce4d7137d6f4d0a47ce18b4ad7cd7a78cbb70ea153d2a5b496fcccb74098fca2b3185837be7b890fb9ac7abf2edb46595cfb07a09cfa19ea4e628091b79041f7edd2e9cff884163f2fba2dd97feea6fa2af85c3b2d642fcb47827394a69743b8e69cda18af47b285cbf73ee3a201282463131ef4c1c12377326abe4b46c02376d2d1ad2f2f7e9958cea6866e66b7e7ae803d9f51a537c11b6f00d636aa8e4b191d5771341eb3c4126fa08f6a7941ab917adec58b6a9419017ec9363a1928713b2bd0da25f50452b7267b1fd14c5765a0a301aef1c43761e62f170e30dfe38a0630dcabf72fc5a2267348f9b5277a1d4c753256e3891d8d0904356d93e416c9a998255dca5a5d0edeee5828716d98bfbf5e8a3a1ad951d90df566334abdb1e3494b5e595f77fda51134069de5dc8f81b984de035ad084cd6dede70034fb3794d4b5841e16d9f10f1d51f1f6c34d65253e3961e699648f6aa1f4e7c0b64d876bde14f1ef9ec38104232637911555a8aa46dd6599367c2de8d841fe602cfdece272dfdabb4946e5a5b2a3a098911b534a36dc4386f18da5ecba511eee2b3a3cf18b812993cfb7a70a9dbbea30b966cf835ff5c75359afe7cf6d7a0d72991ba0d010ff5414c52d9c22a8275d8479d56c87728268005d7a35ab2b02d8d482569042bda855d0c5b4bd81c29ab153aae8b0f3d5e1219c4b76a03bc625f3e4cecf179a37c59a6295b51987e7a6d29e1887a8f0a25d4f7cfc3e01ebe6cdb6b2</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-shrink">
-      <input class="hbe hbe-input-field hbe-input-field-shrink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-shrink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-shrink">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>成长</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>markdown写作测试</title>
     <url>/809/</url>
     <content><![CDATA[<blockquote>
@@ -214,6 +192,28 @@ bootstrap标签 label 【六大类型：default;primary;success;info;warning;dan
       </categories>
       <tags>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生与死</title>
+    <url>/a1c9/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="Oh, these decrypted content cannot be verified, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="12b320503f9a4aa7192c7b1c5d47ce592945cdb1c75b1ffcab7f26b5fdaab0fa">1cc905719f799dcf4e6b573af7a514ae6fd72240acc194e1841f417278011493fa8e64f0f8ef781b7c7ad1a42cabedcfe1a09e51ae212f2342c63a56659d0478cb3c9f2ece47b955f58e4deb428f3e3407397681038958573fcdf6444493463363efe75fc7b9ea351dc78ccdfa7fa9e0bfc1d4ae2740a1afa50d4d962f7b9ab9c68618a3f6cad439cb5862ee64d6d697404a7f1199e6f29bd1bc80ed135dc5477d2cd71ce95aa0847ccc65985a4d68450b053eb0a3ce4d7137d6f4d0a47ce18b4ad7cd7a78cbb70ea153d2a5b496fcccb74098fca2b3185837be7b890fb9ac7abf2edb46595cfb07a09cfa19ea4e628091b79041f7edd2e9cff884163f2fba2dd97feea6fa2af85c3b2d642fcb47827394a69743b8e69cda18af47b285cbf73ee3a201282463131ef4c1c12377326abe4b46c02376d2d1ad2f2f7e9958cea6866e66b7e7ae803d9f51a537c11b6f00d636aa8e4b191d5771341eb3c4126fa08f6a7941ab917adec58b6a9419017ec9363a1928713b2bd0da25f50452b7267b1fd14c5765a0a301aef1c43761e62f170e30dfe38a0630dcabf72fc5a2267348f9b5277a1d4c753256e3891d8d0904356d93e416c9a998255dca5a5d0edeee5828716d98bfbf5e8a3a1ad951d90df566334abdb1e3494b5e595f77fda51134069de5dc8f81b984de035ad084cd6dede70034fb3794d4b5841e16d9f10f1d51f1f6c34d65253e3961e699648f6aa1f4e7c0b64d876bde14f1ef9ec38104232637911555a8aa46dd6599367c2de8d841fe602cfdece272dfdabb4946e5a5b2a3a098911b534a36dc4386f18da5ecba511eee2b3a3cf18b812993cfb7a70a9dbbea30b966cf835ff5c75359afe7cf6d7a0d72991ba0d010ff5414c52d9c22a8275d8479d56c87728268005d7a35ab2b02d8d482569042bda855d0c5b4bd81c29ab153aae8b0f3d5e1219c4b76a03bc625f3e4cecf179a37c59a6295b51987e7a6d29e1887a8f0a25d4f7cfc3e01ebe6cdb6b2</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-shrink">
+      <input class="hbe hbe-input-field hbe-input-field-shrink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-shrink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-shrink">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>成长</tag>
       </tags>
   </entry>
   <entry>
@@ -419,7 +419,7 @@ bootstrap标签 label 【六大类型：default;primary;success;info;warning;dan
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">My favorite search engine is [Duck Duck Go](https://duckduckgo.com &quot;The best search engine for privacy&quot;).</span><br></pre></td></tr></table></figure>
 
 <h2 id="网址和电子邮件地址"><a href="#网址和电子邮件地址" class="headerlink" title="网址和电子邮件地址"></a>网址和电子邮件地址</h2><p>要将 URL 或电子邮件地址快速转换为链接，请将其括在尖括号中。</p>
-<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#x66;&#97;&#x6b;&#x65;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#x6f;&#109;">&#x66;&#97;&#x6b;&#x65;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#101;&#46;&#99;&#x6f;&#109;</a></p>
+<p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a><br><a href="mailto:&#102;&#97;&#x6b;&#x65;&#x40;&#101;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;">&#102;&#97;&#x6b;&#x65;&#x40;&#101;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.markdownguide.org&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="格式化链接"><a href="#格式化链接" class="headerlink" title="格式化链接"></a>格式化链接</h2><p>如需 强调（emphasize） 某个链接, 请在方括号前及圆括号后添加星号。要将链接表示为 代码（code） ，请在方括号内添加反引号。</p>
@@ -743,6 +743,31 @@ gantt
         <tag>如果</tag>
         <tag>格局</tag>
         <tag>人生</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开启gitlab pages</title>
+    <url>/3fca/</url>
+    <content><![CDATA[<blockquote>
+<p>gitlab pages不同于github pages，需要设置一个集成文件.gitlab-ci.yml</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="如果是网页文件"><a href="#如果是网页文件" class="headerlink" title="如果是网页文件"></a>如果是网页文件</h1><p>创建project：<code>username.gitlab.io</code><br>在根目录创建.gitlab-ci.yml文件，写入以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pages:</span><br><span class="line">  stage: deploy</span><br><span class="line">  script:</span><br><span class="line">    - mkdir .public</span><br><span class="line">    - cp -r * .public</span><br><span class="line">    - mv .public public</span><br><span class="line">  artifacts:</span><br><span class="line">    paths:</span><br><span class="line">      - public</span><br><span class="line">  rules:</span><br><span class="line">    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH</span><br></pre></td></tr></table></figure>
+<p>参考<a href="https://docs.gitlab.com/ee/ci/yaml/index.html#pages" title="官方文档">链接</a>。<br><br>接下来访问username.gitlab.io就可以看到网页了。</p>
+<h1 id="如果使用hexo等工具"><a href="#如果使用hexo等工具" class="headerlink" title="如果使用hexo等工具"></a>如果使用hexo等工具</h1><p>参考<a href="https://gitlab.com/pages/hexo/-/blob/master/.gitlab-ci.yml" title="hexo">hexo-gitlab</a></p>
+<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><p>script不能为空</p>
+<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>像上面一样处理，创建一个public文件夹，把根目录的东西放进去。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- mkdir .public</span><br><span class="line">- cp -r * .public</span><br><span class="line">- mv .public public</span><br></pre></td></tr></table></figure>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>或者输出do nothing</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- echo &#x27;Nothing to do...&#x27;</span><br></pre></td></tr></table></figure>
+<p>参考<a href="https://george.betterde.com/20190531.html#%E4%BF%AE%E6%94%B9-gitlab-ci-yml" title="echo">博客</a></p>
+]]></content>
+      <categories>
+        <category>网页</category>
+      </categories>
+      <tags>
+        <tag>gitlab</tag>
       </tags>
   </entry>
   <entry>
@@ -1299,8 +1324,8 @@ hexo
 ]]></content>
       <categories>
         <category>博客</category>
-        <category>测试页面</category>
         <category>hexo</category>
+        <category>测试页面</category>
       </categories>
   </entry>
   <entry>
